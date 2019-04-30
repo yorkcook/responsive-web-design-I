@@ -167,16 +167,52 @@ body {
         background-color: purple;
     }
 
+    .navigation {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 50px;
+        justify-content: center;
+       
+    }
+
+    .navigation a {
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        width: 20%;
+        margin: 0px 200px;
+        margin-bottom: 50px;
+    }
+
+    .header {
+        /*background-color: red;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 75px;
+    }
+
     .top-image {
         display: none;
     }
+
+    .middle-img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 
 @media(max-width: 500px){
     .contain {
         width: 500px;
-        background-color: green;
+        background-color: green; 
     }
 
     .contain .navigation {
@@ -187,7 +223,7 @@ body {
     .logo {
         display: inline-block;
         width: 100px;
-        margin: 0px 200px;
+        margin: 0px 150px;
     }
 
     .contain .navigation a {
@@ -225,17 +261,19 @@ body {
     }
 
     .middle-img {
-        
+        width: auto;
+        max-width: 100%;
+        height: auto;
     }
 
      .bottom-content {
          display: flex;
          flex-direction: column;
-         background-color: red;
+         /* background-color: red; */
      }
 
      .bottom-content .bottom1 {
-         background-color: purple;
+         /* background-color: purple; */
          margin: 0 auto;
         width: 500px;
         height: 100px;
@@ -243,7 +281,7 @@ body {
      }
 
      .bottom-content .bottom2 {
-        background-color: brown;
+        /* background-color: brown; */
         margin: 0 auto;
         width: 500px;
         height: 100px;
@@ -251,7 +289,7 @@ body {
     }
 
     .bottom-content .bottom3 {
-        background-color: yellow;
+        /* background-color: yellow; */
         margin: 0 auto;
         width: 500px;
         height: 100px;
